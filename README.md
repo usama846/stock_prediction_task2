@@ -10,8 +10,6 @@ Build a machine learning model to predict the next day's stock closing price usi
 - **Features**: Open, High, Low, Volume
 - **Target**: Next day's Closing Price
 
----
-
 ## Project Workflow and Screenshots
 
 ### 1. Data Loading and Inspection
@@ -162,4 +160,5 @@ Quantitative comparison table:
 - **Short-term only**: Predicts 1 day ahead; accuracy degrades for longer horizons
 - **No external factors**: Market news, earnings reports, social media sentiment not included
 - **Historical bias**: Model trained on past data may not predict future market regime changes
+
 - **Volatility periods**: Extreme price swings may temporarily reduce prediction accuracy
