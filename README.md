@@ -13,12 +13,12 @@ Build a machine learning model to predict the next day's stock closing price usi
 ## Project Workflow and Screenshots
 
 ### 1. Data Loading and Inspection
- Outputs/head.png
+ ![Head](Outputs/head.png)
 
 Displays the first few rows of the raw TSLA dataset showing Open, High, Low, Close, and Volume columns before preprocessing.
 
 ### 2. Data Cleaning and Preprocessing
-**Screenshot**: Data_Cleaning
+![Data Cleaning](Outputs/data_cleaning.png)
 
 Shows the data cleaning process including:
 - Flattening multi-level column names (removing 'TSLA' suffix)
@@ -31,7 +31,7 @@ Shows the data cleaning process including:
 ### 3. Data Visualization and Exploration
 
 #### 3.1 TSLA Stock Price History
-**Screenshot: `Data_Visualization01`**
+ ![Data Visualization01](data_visualization01.png)
 
 Line plot showing TSLA's historical closing price from 2020 to present, illustrating:
 - Overall upward trend
@@ -39,7 +39,7 @@ Line plot showing TSLA's historical closing price from 2020 to present, illustra
 - Significant price movements and corrections
 
 #### 3.2 Feature Correlation Matrix
-**Screenshot: `Data_Visualization02`**
+![Data Visualization02](data_visualization02.png)
 
 Heatmap displaying correlation between all features (Open, High, Low, Close, Volume, Next_Close):
 - Strong positive correlations between OHLC features
@@ -47,7 +47,7 @@ Heatmap displaying correlation between all features (Open, High, Low, Close, Vol
 - Close and Next_Close show high correlation (expected)
 
 #### 3.3 Actual vs Predicted Prices
-**Screenshot: `Data_Visualization03`**
+![Data Visualization03](data_visualization03.png)
 
 Comparison plot showing:
 - Actual TSLA closing prices (black line)
@@ -56,7 +56,7 @@ Comparison plot showing:
 - Visual assessment of model fit
 
 #### 3.4 Residual Analysis
-**Screenshot: `Data_Visualization04`**
+![Data Visualization04](data_visualization04.png)
 
 Residual plots for both models:
 - Linear Regression residuals distribution
@@ -66,7 +66,7 @@ Residual plots for both models:
 ---
 
 ### 4. Feature Statistics
-**Screenshot: `Feature_Statistics`**
+![Feature Statistics](feature_statistics.png)
 
 Statistical summary table showing:
 - Count, mean, standard deviation for each feature
@@ -79,7 +79,7 @@ Statistical summary table showing:
 ### 5. Model Training and Evaluation
 
 #### 5.1 Linear Regression Results
-**Screenshot: `Linear_Regression`**
+![Linear Regression](linear_regression.png)
 
 Output showing Linear Regression model performance:
 - Model coefficients for each feature
@@ -89,7 +89,7 @@ Output showing Linear Regression model performance:
 - Feature importance (coefficients)
 
 #### 5.2 Random Forest Results
-**Screenshot: `Random_Forest`**
+![Random Forest](random_forest.png)
 
 Output showing Random Forest model performance:
 - Feature importance rankings
@@ -103,7 +103,7 @@ Output showing Random Forest model performance:
 ### 6. Model Comparison and Analysis
 
 #### 6.1 TSLA Stock Price Prediction Summary
-**Screenshot: `TSLA_Stockprice_Prediction`**
+![TSLA Stockprice Prediction](tsla_stockprice_prediction.png)
 
 Overall summary visualization combining:
 - Historical price context
@@ -112,7 +112,7 @@ Overall summary visualization combining:
 - Key statistics
 
 #### 6.2 Detailed Model Comparison
-**Screenshot: `Detailed_Comparison`**
+![Detailed Comparison](detailed_comparison.png)
 
 Side-by-side comparison showing:
 - Prediction curves for both models
@@ -121,7 +121,7 @@ Side-by-side comparison showing:
 - Strengths and weaknesses of each approach
 
 #### 6.3 Final Model Comparison Table
-**Screenshot: `Model_Comparison`**
+![Model Comparison](model_comparison.png)
 
 Quantitative comparison table:
 
@@ -160,6 +160,7 @@ Quantitative comparison table:
 - **Historical bias**: Model trained on past data may not predict future market regime changes
 
 - **Volatility periods**: Extreme price swings may temporarily reduce prediction accuracy
+
 
 
 
