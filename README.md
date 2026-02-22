@@ -13,14 +13,12 @@ Build a machine learning model to predict the next day's stock closing price usi
 ## Project Workflow and Screenshots
 
 ### 1. Data Loading and Inspection
-**Screenshot: `Head`**
+**Screenshot**: Head
 
 Displays the first few rows of the raw TSLA dataset showing Open, High, Low, Close, and Volume columns before preprocessing.
 
----
-
 ### 2. Data Cleaning and Preprocessing
-**Screenshot: `Data_Cleaning`**
+**Screenshot**: Data_Cleaning
 
 Shows the data cleaning process including:
 - Flattening multi-level column names (removing 'TSLA' suffix)
@@ -162,3 +160,4 @@ Quantitative comparison table:
 - **Historical bias**: Model trained on past data may not predict future market regime changes
 
 - **Volatility periods**: Extreme price swings may temporarily reduce prediction accuracy
+
